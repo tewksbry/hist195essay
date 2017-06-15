@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Image Randomizer for essay!</h1>
+<p>Have fun studying!</p>
+<button onclick="add_google_logo();" style="height:80px;width:400px">Select two random images</button>
+<input type="button" value="Refresh Page" onClick="window.location.reload()">
+<script>
+function add_google_logo() {
+        var src = "1.jpg";
+				if typeof secondclick !== 'undefined' {
+		img1.parentNode.removeChild(img1);}
+		var secondclick = 1;
+        show_image("1.jpg", 276,110, "");
+		
+    }
+
+
+    function show_image(src, width, height, alt) {
+        var img1 = document.createElement("img");
+        img1.src = src;
+        //img.width = width;
+        //img.height = height ;
+        img1.alt = alt;
+        document.body.appendChild(img1);
+		 //img1.parentNode.removeChild(img1);
+    }
+
+</script>
+<!-- <img src="1.jpg" alt="W3Schools.com" width="104" height="142"> -->
+</body>
+</html>
